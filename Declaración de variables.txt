@@ -1,0 +1,14 @@
+void main() {
+  final String nombre = 'Juancaaa';
+  const String apellido = 'Maneeeeeeyy';
+  
+  print('Jelou $nombre $apellido');
+  
+  // Nummeros
+  
+  int dinero = 100;
+  double xd = 120.02;
+  
+  print(dinero);
+  print(xd);
+}

@@ -1,0 +1,10 @@
+void main() {
+  // Nomaca con esto se comenta
+  /*
+   * Nomaca con esto
+   * se puede comentar
+   * en varias lineas WoW
+   */
+  
+  print('Hola worldddddddddddddddd');
+}
