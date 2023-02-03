@@ -1,0 +1,19 @@
+void main() {
+//Existen dos tipos de funciones
+  
+ final nombre = 'Arturo';
+  saludar2(nombre: nombre, mensaje: 'Greeting');
+}
+
+void saludar( String nombre, [String mensaje = 'Hi']){
+  print('$mensaje $nombre');
+}
+
+void saludar2 ({
+  required String nombre,
+  required String mensaje
+}){
+  print('$mensaje $nombre');
+}
+
+ 

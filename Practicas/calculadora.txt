@@ -1,0 +1,17 @@
+void main() {
+  const int numero1 = 12;
+  const int numero2 = 12;
+  
+  const int suma = (numero1 + numero2);
+  print(suma);
+  
+  const int resta = (numero1 - numero2);
+  print(resta);
+  
+  const double division = (numero1 / numero2);
+  print(division);
+    
+  const int multi = (numero1 * numero2);
+  print(multi);
+}
+ 

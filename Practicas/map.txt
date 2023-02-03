@@ -1,0 +1,21 @@
+void main() {
+  Map persona = {
+    'nombre':'Arturo', 
+    'edad': 20, 
+    'soltero' : false, 
+    true: false, 
+    1:100, 
+    2:500
+  };
+  
+  /*
+   Map<String,dynamic> persona = {} / otra forma de hacerlo pero mas comun
+   
+   */
+  
+  persona.addAll({'apellido': 'Hernandez'});
+  
+  print(persona);
+  print(persona['nombre']);
+}
+ 
