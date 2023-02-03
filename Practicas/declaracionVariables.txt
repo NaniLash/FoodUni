@@ -1,0 +1,19 @@
+void main() {
+  //DECLARACION DE VARIABLES
+  
+  //Strings
+  //Se puede modificar conforme avanza el codigo
+  const String nombre = 'Tony';
+  //No se puede modificar
+  final String apellido = 'Stark';
+  //Ocupas comillas y el $ para imprimir strings
+  print('Hola $nombre $apellido');
+  
+  //Numeros
+  int empleados = 10;
+  double salario = 185.12;
+  
+  print(empleados);
+  print(salario);
+}
+ 
