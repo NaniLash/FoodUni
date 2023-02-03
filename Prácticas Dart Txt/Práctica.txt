@@ -1,0 +1,23 @@
+void main() {
+  double numero1 = 301;
+  double numero2 = 300;
+  int forma = 3;
+  
+  
+  switch(forma){
+    case 1:
+      print(numero1 + numero2);
+      break;
+    case 2:
+      print(numero1 - numero2);
+      break;
+    case 3:
+      print(numero1 * numero2);
+      break;
+    case 4:
+      print(numero1 / numero2);
+      break;
+    default:
+      print('No elegiste una opción correcta roñoso');
+  }
+}

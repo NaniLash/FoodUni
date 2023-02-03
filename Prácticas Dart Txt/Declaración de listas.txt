@@ -1,0 +1,11 @@
+void main() {
+  List <int> digitos = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+  digitos.add(10);
+  print(digitos);
+  
+  final masNumeros = List.generate(100, (int index) => index); 
+  // Con esto generamos mas numeros despues del indice que tenemos en lista
+  
+  print(masNumeros);
+  
+}
