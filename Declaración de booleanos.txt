@@ -1,9 +1,0 @@
-void main() {
-  bool? isActive;
-  
-  if ( isActive == null ){
-    print('Esta cosa no tiene Nancy');
-  } else {
-    print('Esta cosita fea tiene algo');
-  }
-}
