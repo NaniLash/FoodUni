@@ -1,0 +1,32 @@
+void main() {
+  //Usuarios
+  Map<String, dynamic> usuarios = {
+    'ID': 1,
+    'nombre': 'Yovis',
+    'contrasena': 'password',
+    'matricula': 3,
+    'img': 'xd/',
+  };
+  
+  //Articulos
+  Map<String, dynamic> articulos = {
+    'ID': 1,
+    'ID_usuarios': 1,
+    'articulo': 'tamal',
+    'precio': 10,
+    'img': 'xd/',
+    'disponibles': 5,
+  };
+  
+  //vendedor
+  Map<String, dynamic> vendedor = {
+    'ID_usuarios': 1,
+    'edificio': 'UD2',
+    'aula': '14',
+    'horario': 'De 1 A.M a 3 P.M',
+  };
+  
+  print(usuarios);
+  print(articulos);
+  print(vendedor);
+}
