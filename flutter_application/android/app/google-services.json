@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "707005714330",
+    "project_id": "fooduni-78a5f",
+    "storage_bucket": "fooduni-78a5f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:707005714330:android:9e7e9f62e32f75eceb7423",
+        "android_client_info": {
+          "package_name": "com.example.flutter_application"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "707005714330-l3vg9cvs1p0ugq24mq5s7v6emer3m7ke.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4Pt0ss4C3Ynri8kGIPle9gNvqFEpuT7A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "707005714330-l3vg9cvs1p0ugq24mq5s7v6emer3m7ke.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
