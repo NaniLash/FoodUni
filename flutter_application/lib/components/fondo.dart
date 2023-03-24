@@ -1,4 +1,4 @@
-Widget cuerpo(){
+/* Widget cuerpo(){
 
 
   return Container(
@@ -24,4 +24,4 @@ Widget cuerpo(){
       
       ),
   );
-}
+} */

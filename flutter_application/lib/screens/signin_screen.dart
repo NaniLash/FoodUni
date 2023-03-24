@@ -12,17 +12,17 @@ class Signin extends StatefulWidget {
 class _SigninState extends State<Signin> {
   @override
   Widget build(BuildContext context) {
-
-
     return Scaffold(
-        body: Container(
+        body: ListView(
           padding: const EdgeInsets.only(top: 50.0),
-          child: Column(
-            children: [
-              body(),
-              button(context)
-            ]
-          )
+            children: 
+            [Column(
+              children: [
+                body(),
+                button(context)
+              ]
+            )
+          ]
         )
     );
   }
@@ -97,7 +97,7 @@ Widget career() {
         );
       }
     ).toList(), onChanged: (Object? value) {  }
-  )
+  ) 
   );
 }
 

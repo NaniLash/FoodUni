@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application/screens/pages_screen.dart';
+//Screens
+import 'package:flutter_application/screens/principal_screen.dart';
 import 'package:flutter_application/screens/signin_screen.dart';
 
 class Login extends StatefulWidget {
@@ -13,15 +14,17 @@ class _LoginState extends State<Login> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        body: Container(
+        body: ListView(
           padding: const EdgeInsets.only(top: 50.0),
-          child: Column(
-            children: [
-              body(),
-              button(context),
-              buttonSignin(context)
-            ]
-          )
+          children: 
+            [Column(
+              children: [
+                body(),
+                button(context),
+                buttonSignin(context),
+              ]
+            ),
+          ]
         )
     );
   }
@@ -49,11 +52,11 @@ Widget login() {
       ));
 }
 
-Widget name() {
+Widget email() {
   return Container(
     padding: const EdgeInsets.symmetric(horizontal: 40.0, vertical: 25.0),
     child: const TextField(
-      decoration: InputDecoration(hintText: 'Usuario', filled: true, fillColor: Colors.white),
+      decoration: InputDecoration(hintText: 'Correo Electrónico', filled: true, fillColor: Colors.white),
     ),
   );
 }
@@ -69,14 +72,14 @@ Widget password() {
 
 Widget button(BuildContext context) {
   return MaterialButton(
-    color: Colors.red,
+    color: Colors.red, 
     shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10.0)),
     child: const Text('Iniciar Sesión',
         style: TextStyle(
           color: Colors.white,
         )),
     onPressed: () {
-      Navigator.push(context, MaterialPageRoute(builder: (context) => const Inicio()));
+      Navigator.push(context, MaterialPageRoute(builder: (context) => Inicio()));
     },
   );
 }
