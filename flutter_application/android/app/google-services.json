@@ -14,7 +14,15 @@
       },
       "oauth_client": [
         {
-          "client_id": "707005714330-l3vg9cvs1p0ugq24mq5s7v6emer3m7ke.apps.googleusercontent.com",
+          "client_id": "707005714330-9mimsb0s1rdk8l1ekoted0vtglvh37ns.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.flutter_application",
+            "certificate_hash": "a70103a12d18a0b985791753362c6ad295dbb4d6"
+          }
+        },
+        {
+          "client_id": "707005714330-t3a31phheodfqh1ujjsq7ho8981qbnm7.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
@@ -29,6 +37,13 @@
             {
               "client_id": "707005714330-l3vg9cvs1p0ugq24mq5s7v6emer3m7ke.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "707005714330-i0c8tnu0orcv9jb4ou933c1qhuf8t1eh.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "Robin.Do"
+              }
             }
           ]
         }
