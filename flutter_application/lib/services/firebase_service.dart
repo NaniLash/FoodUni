@@ -17,6 +17,10 @@ Future<List> getUser() async {
     //La data es por ejemplo nombre: Arturo de la BD
     user.add(documento.data());
   });
-  
   return user;
+}
+
+//Void de que no regresa nada o un mensaje de error, lo que queramos
+Future<void> addUser(String name) async {
+  await db.collection('user').add({'nombre': name});
 }

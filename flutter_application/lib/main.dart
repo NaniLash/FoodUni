@@ -1,34 +1,27 @@
 import 'package:flutter/material.dart';
 //Firebase
 import 'package:firebase_core/firebase_core.dart';
+import 'package:flutter_application/src/app.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 import 'firebase_options.dart';
-//Authentication
-//
+//Cubit
+import 'package:flutter_application/src/repository/bloc/auth_cubit.dart';
+import 'package:flutter_application/src/repository/implementation/auth_repository.dart';
 //Screens
-import 'package:flutter_application/screens/login_screen.dart';
+
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
   );
-  runApp(const MyApp());
-}
+  
+  final authCubit = AuthCubit(AuthRepository());
 
-class MyApp extends StatefulWidget {
-  const MyApp({super.key});
-
-  @override
-  State<MyApp> createState() => _MyAppState();
-}
-
-class _MyAppState extends State<MyApp> {
-  @override
-  Widget build(BuildContext context) {
-    return const MaterialApp(
-      debugShowCheckedModeBanner: false,
-      title: 'lutter Demo',
-      home: Login(),
-    );
-  }
+  runApp(BlocProvider(
+    //Lo tenemos que inicializar
+    create: (_) => authCubit..init() , 
+    child: MyApp.create(),
+    ),
+  );
 }

@@ -40,10 +40,17 @@ dependencies:
   cloud_firestore: ^4.4.4
   firebase_auth: ^4.3.0
   
+  google_sign_in: ^6.0.2
   google_fonts: ^4.0.3
   provider: ^6.0.5
   
   image_picker: ^0.8.7
+  firebase_storage: ^11.0.16
+  #Es para darle parametros a Users
+  equatable: ^2.0.5
+  flutter_bloc: ^8.1.2
+
+  font_awesome_flutter: ^10.4.0
   
 
 dev_dependencies:
